@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.codepath.apps.mysimpletweets.activities.DisplayTweetActivity">
+
+    <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:gravity="bottom"
+        android:text="tvUserName"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvScreenName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:gravity="bottom"
+        android:text="New Text"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/tvUserName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:textSize="15dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnOk"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/tvBody"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:backgroundTint="@color/abc_secondary_text_material_dark"-->
+        <!--android:text="@string/label_button_retweet"-->
+        <!--android:textColor="@android:color/holo_blue_dark"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--android:layout_alignBaseline="@+id/btnOk"-->
+    <!--android:layout_alignBottom="@+id/btnOk"-->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/NiceButton"
+        android:layout_below="@+id/tvBody"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+        android:text="@string/label_button_back"
+
+         />
+
+</RelativeLayout>
+

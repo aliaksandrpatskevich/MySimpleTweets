@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleTweets</string>
+    <string name="login_label">Connect to Twitter</string>
+    <string name="title_activity_timeline">Home</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_compose">Compose tweet</string>
+    <string name="label_button_tweet">Tweet</string>
+    <string name="label_button_retweet">Retweet</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="label_button_back">Back</string>
+    <string name="twitter_message_hint">Enter message, max 140 characters </string>
+    <string name="title_activity_display_tweet">Tweet</string>
+    <string name="title_activity_display">Display</string>
+
+</resources>
